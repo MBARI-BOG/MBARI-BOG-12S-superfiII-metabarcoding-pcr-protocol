@@ -216,10 +216,10 @@ UV pipets, molecular grade water, and tube racks for 30 minutes prior to startin
 
 **Primers**: PCR primer sequences
 
-| PCR Primer Name | Direction | Sequence (5’ -> 3’)|
-| ----- | ----- | ----- |
-| MiFish_U | forward | GTCGGTAAAACTCGTGCCAGC |
-| MiFish_U | reverse | CATAGTGGGGTATCTAATCCCAGTTTG |
+| PCR Primer Name | Direction | Sequence (5’ -> 3’)| Sequence (5’ -> 3’) with Fluidigm Adapters | Fluidigm Adapter |
+| ----- | ----- | ----- | ----- | ----- |
+| MiFish_U | forward | GTCGGTAAAACTCGTGCCAGC | ACACTGACGACATGGTTCTACA **GTCGGTAAAACTCGTGCCAGC** | CS1 |
+| MiFish_U | reverse | CATAGTGGGGTATCTAATCCCAGTTTG | TACGGTAGCAGAGACTTGGTCT **CATAGTGGGGTATCTAATCCCAGTTTG** | CS2 |
 
 
 
