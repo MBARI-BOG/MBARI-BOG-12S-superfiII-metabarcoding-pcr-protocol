@@ -2,23 +2,23 @@
 # MIOP terms
 methodology_category: Omics Analysis
 project: Marine Biodiversity Observation Network (MBON)
-purpose: PCR [OBI:0000415]
+purpose: detect diversity in Actinopteri
 analyses: PCR [OBI:0000415]
 geographic_location: Monterey Bay [GAZ:00002509]
 broad_scale_environmental_context: marine biome [ENVO:00000447]
 local_environmental_context: upwelling [ENVO:01000005]
 environmental_medium: sea water [ENVO:00002149]
 target: 12S [NCIT:C128263]
-creator: # names separated by commas
+creator: Katie Pitz; Jacoby Baker
 materials_required: vortexer [OBI:0400118], PCR instrument [OBI:0000989], agarose gel electrophoresis system [OBI:0001134]
 skills_required: sterile technique, pipetting skills, standard molecular technique
-time_required: # minutes (integer)
+time_required: 420
 personnel_required: 1
 language: en
-issued: # YYYY-MM-DD
+issued: 2025-04-16
 audience: scientists
-publisher: # institution
-hasVersion: 1
+publisher: Monterey Bay Aquarium Research Institute
+hasVersion: 3
 license: CC0 1.0 Universal
 maturity level: mature
 
