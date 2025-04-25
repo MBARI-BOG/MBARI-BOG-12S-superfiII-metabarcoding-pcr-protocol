@@ -96,8 +96,11 @@ pcr_method_additional: not provided
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
+| Environmental DNA (eDNA) extraction using Qiagen DNeasy 96 Blood and Tissue Kit V.3  | https://github.com/MBARI-BOG/MBARI-BOG-QiagenDNeasy96-BT-DNA-Extraction-Protocol/blob/main/QiagenDNeasy96-DNA-Extraction-Protocol.md | V.3 | yyyy-mm-dd   | Content Cell      |
+| Environmental DNA (eDNA) 12S Metabarcoding PCR Protocol (Touchdown) V.2  | https://github.com/MBARI-BOG/MBARI-BOG-12S-touchdown-metabarcoding-pcr-protocol/blob/main/MBARI-BOG-12S-touchdown-metabarcoding-pcr-protocol.md | V.2 | yyyy-mm-dd   | Content Cell      |
+| Environmental DNA (eDNA) 12S Metabarcoding PCR Protocol (Classic) V.1  | https://github.com/MBARI-BOG/MBARI-BOG-12S-classic-metabarcoding-pcr-protocol/blob/main/MBARI-BOG-12S-classic-metabarcoding-pcr-protocol.md | V.1 | yyyy-mm-dd   | Content Cell      |
 | Content Cell  | Content Cell | Content Cell | yyyy-mm-dd   | Content Cell      |
-| Content Cell  | Content Cell | Content Cell | yyyy-mm-dd   | Content Cell      |
+
 
 ### Protocol Revision Record
 
