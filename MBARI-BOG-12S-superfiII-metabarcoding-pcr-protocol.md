@@ -23,41 +23,41 @@ license: CC0 1.0 Universal
 maturity level: mature
 
 # FAIRe terms
-pcr_0_1: # 1
+pcr_0_1: 1
 thermocycler: # name of thermocycler
-amplificationReactionVolume: # 25
+amplificationReactionVolume: 50
 assay_name: # ssu16sv4v5_emp
 assay_validation: # not provided
-targetTaxonomicAssay: # 16S rRNA gene sequencing targeting the V4-V5 region using primers 515F and 926R
-targetTaxonomicScope: # Prokaryotes, including Bacteria and Archaea
-target_gene: # 16S rRNA
-target_subfragment: # V4-V5
+targetTaxonomicAssay: 12S rRNA gene sequencing ing the V5-V6 region using primers MiFish-F and MiFish-R
+targetTaxonomicScope: fishes
+target_gene: 12S rRNA
+target_subfragment: V5-V6
 ampliconSize: # 411
-pcr_primer_forward: # GTGYCAGCMGCCGCGGTAA
-pcr_primer_reverse: # CCGYCAATTYMTTTRAGTTT
-pcr_primer_name_forward: # 515F-Y
-pcr_primer_name_reverse: # 926R
-pcr_primer_reference_forward: # 10.1111/1462-2920.13023
-pcr_primer_reference_reverse: # 10.1111/1462-2920.13023
-pcr_primer_vol_forward: # 1.0
-pcr_primer_vol_reverse: # 1.0
-pcr_primer_conc_forward: # 10
-pcr_primer_conc_reverse: # 10
-probeReporter: # not applicable
-probeQuencher: # not applicable
-probe_seq: # not applicable
-probe_ref: # not applicable
-probe_conc: # not applicable
-commercial_mm: # AmpliTaq Gold 360 Master Mix
-custom_mm: # PCR reactions were run in 25 uL reaction volumes, with 1.0 uL of DNA, 12.5 uL of AmpliTaq Gold, 9.5 uL of water, and 1.0 uL of each primer (10 uM)
-pcr_dna_vol: # 1.0
-pcr_rep: # 1
+pcr_primer_forward: GTCGGTAAAACTCGTGCCAGC
+pcr_primer_reverse: CATAGTGGGGTATCTAATCCCAGTTTG
+pcr_primer_name_forward: 12S MiFish_U F Fluidigm
+pcr_primer_name_reverse: 12S MiFish_U R Fluidigm
+pcr_primer_reference_forward: http://dx.doi.org/10.1098/rsos.150088
+pcr_primer_reference_reverse: http://dx.doi.org/10.1098/rsos.150088
+pcr_primer_vol_forward: 3
+pcr_primer_vol_reverse: 3
+pcr_primer_conc_forward: 10
+pcr_primer_conc_reverse: 10
+probeReporter: not applicable
+probeQuencher: not applicable
+probe_seq: not applicable
+probe_ref: not applicable
+probe_conc: not applicable
+commercial_mm: Platinum SuperFi II PCR Master Mix
+custom_mm: PCR reactions were run in 50 uL reaction volumes, with 3.0 uL of DNA, 25 uL of Platinum SuperFi II PCR MM, 16 uL of water, and 3.0 uL of each primer (10 uM).
+pcr_dna_vol: 3
+pcr_rep: 1
 nucl_acid_amp: # https://doi.org/10.1111/1462-2920.13023
-pcr_cond: # initial denaturation:95_3;denaturation:95_0.75;annealing:50_0.75;elongation:72_1.5;final elongation:72_10;30
-annealingTemp: # 50
-pcr_cycles: # 30
-pcr_analysis_software: # not provided
-pcr_method_additional: # not provided
+pcr_cond: initial denaturation:98_0.5;denaturation:98_0.16;annealing:62_0.16;elongation:72_0.5;13;final elongation:72_5;38
+annealingTemp: 62
+pcr_cycles: 38
+pcr_analysis_software: not provided
+pcr_method_additional: not provided
 ---
 
 # Environmental DNA (eDNA) 12S Metabarcoding PCR Protocol (with Platinum SuperFi II Taq) V.3
@@ -188,6 +188,8 @@ PCR preparation and running the PCR protocol takes 3 hours. Running the followin
 | **Chemicals** |
 | Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
 | Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+
+
 
 ## STANDARD OPERATING PROCEDURE
 
