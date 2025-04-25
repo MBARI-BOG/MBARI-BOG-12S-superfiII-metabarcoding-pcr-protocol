@@ -9,7 +9,7 @@ broad_scale_environmental_context: marine biome [ENVO:00000447]
 local_environmental_context: upwelling [ENVO:01000005]
 environmental_medium: sea water [ENVO:00002149]
 target: 12S [NCIT:C128263]
-creator: Katie Pitz; Jacoby Baker
+creator: Katie Pitz; Jacoby Baker; Kobun Truelove
 materials_required: vortexer [OBI:0400118], PCR instrument [OBI:0000989], agarose gel electrophoresis system [OBI:0001134]
 skills_required: sterile technique, pipetting skills, standard molecular technique
 time_required: 420
