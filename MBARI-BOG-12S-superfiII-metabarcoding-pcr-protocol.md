@@ -129,20 +129,11 @@ pcr_method_additional: not provided
 
 The 12S protocol is aimed at amplifying the hypervariable region of the mitochondrial DNA 12S rRNA gene in eukaryotes. The primers (MiFish-U-F & MiFish-U-R) used in this protocol were developed by Miya et al., 2015 for metabarcoding environmental DNA (eDNA) from fishes.
 
-
 This work was supported by NASA grant NNX14AP62A ‘National Marine Sanctuaries as Sentinel Sites for a Demonstration Marine Biodiversity Observation Network (MBON)’ funded under the National Ocean Partnership Program (NOPP RFP NOAA-NOS-IOOS-2014-2003803 in partnership between NOAA, BOEM, and NASA), and the U.S. Integrated Ocean Observing System (IOOS) Program Office.
-
-#### Citations
-1. Miya M et al. 2015 MiFish, a set of universal PCR primers for metabarcoding environmental DNA from fishes: detection of more than 230 subtropical marine species. R.Soc.opensci. 2: 150088. [http://dx.doi.org/10.1098/rsos.150088](http://dx.doi.org/10.1098/rsos.150088)
-2. Kawato, M., Yoshida, T., Miya, M., Tsuchida, S., Nagano, Y., Nomura, M., Yabuki, A., Fujiwara, Y. and Fujikura, K., 2021. Optimization of environmental DNA extraction and amplification methods for metabarcoding of deep-sea fish. MethodsX, 8, p.101238. [https://doi.org/10.1016/j.mex.2021.101238](https://doi.org/10.1016/j.mex.2021.101238)
-3. [Platinum SuperFi II PCR Master Mix User Guide](https://www.thermofisher.com/document-connect/document-connect.html?url=https%3A%2F%2Fassets.thermofisher.com%2FTFS-Assets%2FLSG%2Fmanuals%2FMAN0018860_Platinum_SuperFi_II_PCR_MM_UG.pdf)
-
-
 
 ### Method Description and Rationale
 
 This protocol follows an updated version of the MiFish primer PCR protocol. The Platinum SuperFi II was designed to have high fideleity and have increased resistence to PCR inhibitors.
-
 
 ### Spatial Coverage and Environment(s) of Relevance
 
