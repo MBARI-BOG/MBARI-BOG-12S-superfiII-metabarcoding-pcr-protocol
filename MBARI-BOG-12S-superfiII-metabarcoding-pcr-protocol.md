@@ -28,7 +28,7 @@ thermocycler: # name of thermocycler
 amplificationReactionVolume: 50
 assay_name: # ssu16sv4v5_emp
 assay_validation: # not provided
-targetTaxonomicAssay: 12S rRNA gene sequencing ing the V5-V6 region using primers MiFish-F and MiFish-R
+targetTaxonomicAssay: 12S rRNA gene sequencing the V5-V6 region using primers MiFish-F and MiFish-R
 targetTaxonomicScope: fishes
 target_gene: 12S rRNA
 target_subfragment: V5-V6
