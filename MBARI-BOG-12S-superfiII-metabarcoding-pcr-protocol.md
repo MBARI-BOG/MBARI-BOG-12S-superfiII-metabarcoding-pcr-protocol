@@ -15,7 +15,7 @@ skills_required: sterile technique, pipetting skills, standard molecular techniq
 time_required: 420
 personnel_required: 1
 language: en
-issued: # YYYY-MM-DD
+issued: 2025-04-16
 audience: scientists
 publisher: Monterey Bay Aquarium Research Institute
 hasVersion: 3
@@ -31,26 +31,26 @@ assay_validation: # not applicable
 targetTaxonomicAssay: Actinopteri
 targetTaxonomicScope: Actinopteri
 target_gene: 12S rRNA (SSU mitochondria)
-target_subfragment: # not applicable
+target_subfragment: V5-V6
 ampliconSize: # 411
 pcr_primer_forward: GTCGGTAAAACTCGTGCCAGC
 pcr_primer_reverse: CATAGTGGGGTATCTAATCCCAGTTTG
-pcr_primer_name_forward: MiFish_U
-pcr_primer_name_reverse: MiFish_U
-pcr_primer_reference_forward: 10.1098/rsos.150088
-pcr_primer_reference_reverse: 10.1098/rsos.150088
+pcr_primer_name_forward: MiFish_U F Fluidigm
+pcr_primer_name_reverse: MiFish_U R Fluidigm
+pcr_primer_reference_forward: http://dx.doi.org/10.1098/rsos.150088
+pcr_primer_reference_reverse: http://dx.doi.org/10.1098/rsos.150088
 pcr_primer_vol_forward: 3
 pcr_primer_vol_reverse: 3
 pcr_primer_conc_forward: 10
 pcr_primer_conc_reverse: 10
-commercial_mm: 2X Platinum SuperFi II PCR MM
+commercial_mm: Platinum SuperFi II PCR Master Mix
 custom_mm: # not applicable
 pcr_dna_vol: 3
 pcr_rep: 1
 nucl_acid_amp: # https://doi.org/10.1111/1462-2920.13023
-pcr_cond: initial denaturation:98_0.5;denaturation:98_0.75;annealing:62_0.75;elongation:72_0.5;final elongation:72_5;4
-annealingTemp: # 50
-pcr_cycles: # 30
+pcr_cond: initial denaturation:98_0.5;denaturation:98_0.16;annealing:62_0.16;elongation:72_0.5;13;final elongation:72_5;38
+annealingTemp: 62
+pcr_cycles: 38
 pcr_analysis_software: # not provided
 pcr_method_additional: # not provided
 ---
@@ -91,8 +91,11 @@ pcr_method_additional: # not provided
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
+| Environmental DNA (eDNA) extraction using Qiagen DNeasy 96 Blood and Tissue Kit V.3  | https://github.com/MBARI-BOG/MBARI-BOG-QiagenDNeasy96-BT-DNA-Extraction-Protocol/blob/main/QiagenDNeasy96-DNA-Extraction-Protocol.md | V.3 | yyyy-mm-dd   | Content Cell      |
+| Environmental DNA (eDNA) 12S Metabarcoding PCR Protocol (Touchdown) V.2  | https://github.com/MBARI-BOG/MBARI-BOG-12S-touchdown-metabarcoding-pcr-protocol/blob/main/MBARI-BOG-12S-touchdown-metabarcoding-pcr-protocol.md | V.2 | yyyy-mm-dd   | Content Cell      |
+| Environmental DNA (eDNA) 12S Metabarcoding PCR Protocol (Classic) V.1  | https://github.com/MBARI-BOG/MBARI-BOG-12S-classic-metabarcoding-pcr-protocol/blob/main/MBARI-BOG-12S-classic-metabarcoding-pcr-protocol.md | V.1 | yyyy-mm-dd   | Content Cell      |
 | Content Cell  | Content Cell | Content Cell | yyyy-mm-dd   | Content Cell      |
-| Content Cell  | Content Cell | Content Cell | yyyy-mm-dd   | Content Cell      |
+
 
 ### Protocol Revision Record
 
@@ -124,27 +127,17 @@ pcr_method_additional: # not provided
 
 The 12S protocol is aimed at amplifying the hypervariable region of the mitochondrial DNA 12S rRNA gene in eukaryotes. The primers (MiFish-U-F & MiFish-U-R) used in this protocol were developed by Miya et al., 2015 for metabarcoding environmental DNA (eDNA) from fishes.
 
-
 This work was supported by NASA grant NNX14AP62A ‘National Marine Sanctuaries as Sentinel Sites for a Demonstration Marine Biodiversity Observation Network (MBON)’ funded under the National Ocean Partnership Program (NOPP RFP NOAA-NOS-IOOS-2014-2003803 in partnership between NOAA, BOEM, and NASA), and the U.S. Integrated Ocean Observing System (IOOS) Program Office.
-
-#### Citations
-1. Miya M et al. 2015 MiFish, a set of universal PCR primers for metabarcoding environmental DNA from fishes: detection of more than 230 subtropical marine species. R.Soc.opensci. 2: 150088. [http://dx.doi.org/10.1098/rsos.150088](http://dx.doi.org/10.1098/rsos.150088)
-2. Kawato, M., Yoshida, T., Miya, M., Tsuchida, S., Nagano, Y., Nomura, M., Yabuki, A., Fujiwara, Y. and Fujikura, K., 2021. Optimization of environmental DNA extraction and amplification methods for metabarcoding of deep-sea fish. MethodsX, 8, p.101238. [https://doi.org/10.1016/j.mex.2021.101238](https://doi.org/10.1016/j.mex.2021.101238)
-3. [Platinum SuperFi II PCR Master Mix User Guide](https://www.thermofisher.com/document-connect/document-connect.html?url=https%3A%2F%2Fassets.thermofisher.com%2FTFS-Assets%2FLSG%2Fmanuals%2FMAN0018860_Platinum_SuperFi_II_PCR_MM_UG.pdf)
-
-
 
 ### Method Description and Rationale
 
 This protocol follows an updated version of the MiFish primer PCR protocol. The Platinum SuperFi II was designed to have high fideleity and have increased resistence to PCR inhibitors.
-
 
 ### Spatial Coverage and Environment(s) of Relevance
 
 This protocol has been used to amplify extracted DNA from filtered sea water samples taken from marine coastal stations off the western coast of North America (primarily off of California).
 
 - ocean [ENVO:00000015]
-- freshwater lake [ENVO:00000021]
 
 ## PERSONNEL REQUIRED
 
@@ -184,6 +177,8 @@ PCR preparation and running the PCR protocol takes 3 hours. Running the followin
 | Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
 | Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
 
+
+
 ## STANDARD OPERATING PROCEDURE
 
 
@@ -211,10 +206,10 @@ UV pipets, molecular grade water, and tube racks for 30 minutes prior to startin
 
 **Primers**: PCR primer sequences
 
-| PCR Primer Name | Direction | Sequence (5’ -> 3’)|
-| ----- | ----- | ----- |
-| MiFish_U | forward | GTCGGTAAAACTCGTGCCAGC |
-| MiFish_U | reverse | CATAGTGGGGTATCTAATCCCAGTTTG |
+| PCR Primer Name | Direction | Sequence (5’ -> 3’)| Sequence (5’ -> 3’) with Fluidigm Adapters | Fluidigm Adapter |
+| ----- | ----- | ----- | ----- | ----- |
+| MiFish_U | forward | GTCGGTAAAACTCGTGCCAGC | ACACTGACGACATGGTTCTACA **GTCGGTAAAACTCGTGCCAGC** | CS1 |
+| MiFish_U | reverse | CATAGTGGGGTATCTAATCCCAGTTTG | TACGGTAGCAGAGACTTGGTCT **CATAGTGGGGTATCTAATCCCAGTTTG** | CS2 |
 
 
 
@@ -222,11 +217,11 @@ UV pipets, molecular grade water, and tube racks for 30 minutes prior to startin
 
 | Reagent | Volume | Initial Concentration | final concentration|
 | ----- | ----- | ----- | ----- |
-| DNA extract template | 3 μl | content |content |
-| 2X Platinum SuperFi II PCR MM | 25 μl | content |content |
-| forward primer | 3 μl | 10 μM |content |
-| reverse primer | 3 μl | 10 μM |content |
-| molecular-biology grade water | 16 μl | content |content |
+| DNA extract template | 3 μl |  | |
+| 2X Platinum SuperFi II PCR MM | 25 μl |  | |
+| forward primer | 3 μl | 10 μM | |
+| reverse primer | 3 μl | 10 μM | |
+| molecular-biology grade water | 16 μl |  | |
 
 **PCR Cycling Program**: 
 
@@ -268,8 +263,9 @@ Please include information about any negative controls, such as PCR-grade water 
 
 ## REFERENCES
 
-- Insert all references cited in the document.
-- Please insert full DOI address when available, e.g. http://doi.dx.org/10.1007/s11258-014-0404-1.
+1. Miya M et al. 2015 MiFish, a set of universal PCR primers for metabarcoding environmental DNA from fishes: detection of more than 230 subtropical marine species. R.Soc.opensci. 2: 150088. [http://dx.doi.org/10.1098/rsos.150088](http://dx.doi.org/10.1098/rsos.150088)
+2. Kawato, M., Yoshida, T., Miya, M., Tsuchida, S., Nagano, Y., Nomura, M., Yabuki, A., Fujiwara, Y. and Fujikura, K., 2021. Optimization of environmental DNA extraction and amplification methods for metabarcoding of deep-sea fish. MethodsX, 8, p.101238. [https://doi.org/10.1016/j.mex.2021.101238](https://doi.org/10.1016/j.mex.2021.101238)
+3. [Platinum SuperFi II PCR Master Mix User Guide](https://www.thermofisher.com/document-connect/document-connect.html?url=https%3A%2F%2Fassets.thermofisher.com%2FTFS-Assets%2FLSG%2Fmanuals%2FMAN0018860_Platinum_SuperFi_II_PCR_MM_UG.pdf)
 
 ## APPENDIX A: DATASHEETS
 
