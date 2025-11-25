@@ -2,58 +2,53 @@
 # MIOP terms
 methodology_category: Omics Analysis
 project: Marine Biodiversity Observation Network (MBON)
-purpose: PCR [OBI:0000415]
+purpose: biodiversity assessment objective [OBI:0001969]
 analyses: PCR [OBI:0000415]
 geographic_location: Monterey Bay [GAZ:00002509]
 broad_scale_environmental_context: marine biome [ENVO:00000447]
 local_environmental_context: upwelling [ENVO:01000005]
 environmental_medium: sea water [ENVO:00002149]
 target: 12S [NCIT:C128263]
-creator: # names separated by commas
+creator: Jacoby Baker, Kobun Truelove, Kathleen Pitz
 materials_required: vortexer [OBI:0400118], PCR instrument [OBI:0000989], agarose gel electrophoresis system [OBI:0001134]
 skills_required: sterile technique, pipetting skills, standard molecular technique
-time_required: # minutes (integer)
+time_required: 420
 personnel_required: 1
 language: en
 issued: # YYYY-MM-DD
 audience: scientists
-publisher: # institution
-hasVersion: 1
+publisher: Monterey Bay Aquarium Research Institute
+hasVersion: 3
 license: CC0 1.0 Universal
 maturity level: mature
 
 # FAIRe terms
-pcr_0_1: # 1
+pcr_0_1: 1
 thermocycler: # name of thermocycler
-amplificationReactionVolume: # 25
-assay_name: # ssu16sv4v5_emp
-assay_validation: # not provided
-targetTaxonomicAssay: # 16S rRNA gene sequencing targeting the V4-V5 region using primers 515F and 926R
-targetTaxonomicScope: # Prokaryotes, including Bacteria and Archaea
-target_gene: # 16S rRNA
-target_subfragment: # V4-V5
+amplificationReactionVolume: 50
+assay_name: MiFish (metabarcoding)
+assay_validation: # not applicable
+targetTaxonomicAssay: Actinopteri
+targetTaxonomicScope: Actinopteri
+target_gene: 12S rRNA (SSU mitochondria)
+target_subfragment: # not applicable
 ampliconSize: # 411
-pcr_primer_forward: # GTGYCAGCMGCCGCGGTAA
-pcr_primer_reverse: # CCGYCAATTYMTTTRAGTTT
-pcr_primer_name_forward: # 515F-Y
-pcr_primer_name_reverse: # 926R
-pcr_primer_reference_forward: # 10.1111/1462-2920.13023
-pcr_primer_reference_reverse: # 10.1111/1462-2920.13023
-pcr_primer_vol_forward: # 1.0
-pcr_primer_vol_reverse: # 1.0
-pcr_primer_conc_forward: # 10
-pcr_primer_conc_reverse: # 10
-probeReporter: # not applicable
-probeQuencher: # not applicable
-probe_seq: # not applicable
-probe_ref: # not applicable
-probe_conc: # not applicable
-commercial_mm: # AmpliTaq Gold 360 Master Mix
-custom_mm: # PCR reactions were run in 25 uL reaction volumes, with 1.0 uL of DNA, 12.5 uL of AmpliTaq Gold, 9.5 uL of water, and 1.0 uL of each primer (10 uM)
-pcr_dna_vol: # 1.0
-pcr_rep: # 1
+pcr_primer_forward: GTCGGTAAAACTCGTGCCAGC
+pcr_primer_reverse: CATAGTGGGGTATCTAATCCCAGTTTG
+pcr_primer_name_forward: MiFish_U
+pcr_primer_name_reverse: MiFish_U
+pcr_primer_reference_forward: 10.1098/rsos.150088
+pcr_primer_reference_reverse: 10.1098/rsos.150088
+pcr_primer_vol_forward: 3
+pcr_primer_vol_reverse: 3
+pcr_primer_conc_forward: 10
+pcr_primer_conc_reverse: 10
+commercial_mm: 2X Platinum SuperFi II PCR MM
+custom_mm: # not applicable
+pcr_dna_vol: 3
+pcr_rep: 1
 nucl_acid_amp: # https://doi.org/10.1111/1462-2920.13023
-pcr_cond: # initial denaturation:95_3;denaturation:95_0.75;annealing:50_0.75;elongation:72_1.5;final elongation:72_10;30
+pcr_cond: initial denaturation:98_0.5;denaturation:98_0.75;annealing:62_0.75;elongation:72_0.5;final elongation:72_5;4
 annealingTemp: # 50
 pcr_cycles: # 30
 pcr_analysis_software: # not provided
