@@ -24,7 +24,7 @@ maturity level: mature
 
 # FAIRe terms
 pcr_0_1: 1
-thermocycler: # name of thermocycler
+thermocycler: Bio-Rad T100
 amplificationReactionVolume: 50
 assay_name: MiFish (metabarcoding)
 assay_validation: # not applicable
@@ -91,10 +91,10 @@ pcr_method_additional: # not provided
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
-| Environmental DNA (eDNA) extraction using Qiagen DNeasy 96 Blood and Tissue Kit V.3  | https://github.com/MBARI-BOG/MBARI-BOG-QiagenDNeasy96-BT-DNA-Extraction-Protocol/blob/main/QiagenDNeasy96-DNA-Extraction-Protocol.md | V.3 | yyyy-mm-dd   | Content Cell      |
-| Environmental DNA (eDNA) 12S Metabarcoding PCR Protocol (Touchdown) V.2  | https://github.com/MBARI-BOG/MBARI-BOG-12S-touchdown-metabarcoding-pcr-protocol/blob/main/MBARI-BOG-12S-touchdown-metabarcoding-pcr-protocol.md | V.2 | yyyy-mm-dd   | Content Cell      |
-| Environmental DNA (eDNA) 12S Metabarcoding PCR Protocol (Classic) V.1  | https://github.com/MBARI-BOG/MBARI-BOG-12S-classic-metabarcoding-pcr-protocol/blob/main/MBARI-BOG-12S-classic-metabarcoding-pcr-protocol.md | V.1 | yyyy-mm-dd   | Content Cell      |
-| Content Cell  | Content Cell | Content Cell | yyyy-mm-dd   | Content Cell      |
+| Environmental DNA (eDNA) extraction using Qiagen DNeasy 96 Blood and Tissue Kit V.3  | https://github.com/MBARI-BOG/MBARI-BOG-QiagenDNeasy96-BT-DNA-Extraction-Protocol/blob/main/QiagenDNeasy96-DNA-Extraction-Protocol.md | V.3 | 2023-11-07   | Internal      |
+| Environmental DNA (eDNA) 12S Metabarcoding PCR Protocol (Touchdown) V.2  | https://github.com/MBARI-BOG/MBARI-BOG-12S-touchdown-metabarcoding-pcr-protocol/blob/main/MBARI-BOG-12S-touchdown-metabarcoding-pcr-protocol.md | V.2 | 2023-11-07   | Internal      |
+| Environmental DNA (eDNA) 12S Metabarcoding PCR Protocol (Classic) V.1  | https://github.com/MBARI-BOG/MBARI-BOG-12S-classic-metabarcoding-pcr-protocol/blob/main/MBARI-BOG-12S-classic-metabarcoding-pcr-protocol.md | V.1 | 2023-11-07   | Internal      |
+
 
 
 ### Protocol Revision Record
@@ -105,7 +105,7 @@ pcr_method_additional: # not provided
 
 | VERSION | RELEASE DATE | DESCRIPTION OF REVISIONS |
 | ------------- | ------------- | ------------- |
-| 1.0.0 | yyyy-mm-dd | Initial release |
+| 3.0.0 | 2023-11-07 | Initial release |
 
 ### Acronyms and Abbreviations
 
@@ -158,24 +158,50 @@ PCR preparation and running the PCR protocol takes 3 hours. Running the followin
 
 ## EQUIPMENT
 
-- Opentrons Consumables: If using Opentrons OT-2 Robot for KF Plate Prep.
+>- Opentrons Consumables: If using Opentrons OT-2 Robot for KF Plate Prep.
 - Description: E.g., "filter".
 - Product Name and Model: Provide the official name of the product.
 - Manufacturer: Provide the name of the manufacturer of the product.
 - Quantity: Provide quantities necessary for one application of the standard operating procedure (e.g., number of filters).
 - Remark: For example, some of the consumable may need to be sterilized, some commercial solution may need to be diluted or shielded from light during the operating procedure.
 
+For 96-well Plate:
+
 | DESCRIPTION | PRODUCT NAME AND MODEL | MANUFACTURER | QUANTITY | REMARK |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | **Durable equipment** |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+| 100-1000 ul Pipette | Pipet-Lite™ XLS+ manual single-channel Adjustable-Volume Pipette | RAININ | 1 | Can be substituted with any accurate pipette |
+| 10-100 ul Pipette | Pipet-Lite™ XLS+ manual single-channel Adjustable-Volume Pipette | RAININ | 1 | Can be substituted with any accurate pipette |
+| 0.1-2.5 ul Pipette | Pipet-Lite™ XLS+ manual single-channel Adjustable-Volume Pipette | RAININ | 1 | Can be substituted with any accurate pipette |
+| 10-100 ul 8-Channel Pipette | Pipet-Lite™ XLS+ manual 8 Channel Pipette | RAININ | 1 | Can be substituted with any accurate pipette |
+| 0.5-10 uL 8-Channel Pipette |Pipet-Lite™ XLS+ manual 8 Channel Pipette | RAININ | 1 | Can be substituted with any accurate pipette |
+| Thermal cycler | T100 Thermal Cycler | BIO-RAD | 1 | Can be substituted with generic |
+| Gel Illuminator | PrepOne™ Sapphire Blue LED Illuminator with Photo Hood | Embi Tec | 1 | Can be substituted with generic |
 | **Consumable equipment** |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+| Gloves | Nitrile Gloves, Exam Grade, Powder-free | KimTech | 1 | (box) Can be substituted with generic |
+| Kim Wipes | KimWipe Delicate Task Wipers | KimTech | 1 | (box) Can be substituted with generic |
+| 96-well PCR Plate | SuperPlate PCR Plate, 96-well, semi-skirted AB2400 | Thermo Scientific | 1 | |
+| PCR Plate Seal | PCR Plate Heat Seal, foil, peelable #1814045 | BIO-RAD | 1 | Can be substituted with generic, can use tightly-fitted strip caps in place of seal |
+| 1000 µL Filter Tips | Pipette Tips RT LTS 1000µL | RAININ | 1 | (box) Can be substituted with generic |
+| 200 µL Filter Tips | Pipette Tips RT LTS 200µL | RAININ | 2 | (boxes) Can be substituted with generic |
+| 20 µL Filter tips | Pipette Tips RT LTS 20µL | RAININ | 2 | (boxes) Can be substituted with generic |
+| Molecular water | DNase/RNase-Free Water | Zymo | 3009.6 | (µL) for 96 samples plus a 10% volume buffer |
+| TAE Buffer (10x) | Electrophoresis Grade TAE Buffer 10X Solution | Embi Tec | 100 | (uL) TAE buffer must be diluted from 10X to 1X concentration |
+| Agarose gel 2% | 2% Agarose TAE w/ GelGreen Long Gel, 4(24+1) well | Embi Tec | 1 | Can be substituded with user cast gel |
+| Gel stain loading dye | TriTrack DNA Loading Dye (6X) R1161 | Thermo Scientific | 96 | (ul per plate) |
+| 100bp DNA Ladder | GeneRuler Ready-to-Use DNA Ladders | Thermo Scientific | 2 | (ul per lane on gel) |
+|2X Platinum SuperFi II PCR MM|||||
 | **Chemicals** |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+| RNase AWAY | RNase AWAY Surface Decontaminant | ThermoFisher Scientific | 1 | (bottle) Used to sterilize lab surfaces and equipment |
+| EtOH | Ethanol | Generic Brand | 1 | (wash bottle) Must be molecular grade ethanol |
+| DI water | Deionized water | Generic | 900 | (mL) |
+| **Clean-Up Protocol** |
+| AMPure XP Beads | AMPure XP Bead-Based Reagent | Beckman Coulter | 1 | (kit) |
+| 96-well magnetic plate | MagDTR 96-Well Magnetic Separator | Edge Biosystems Inc | 1 | Can be substituted with generic brand |
+| **(OPTIONAL) Qubit** |
+| Quant-iT Reagents | Quant-iT™ 1X dsDNA Assay Kits, high sensitivity (HS) Q33232 | Invitrogen | 1 | (kit) can be substituded with Qubit kit |
+| Quant-iT plate reader plate | Corning™ 96-Well Solid Black Polystyrene Microplates | Corning | 1 | Can be substituted with Qubit kit and Qubit tubes |
+
 
 
 
